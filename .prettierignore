@@ -1,0 +1,15 @@
+# Ignore build directories
+/dist
+/build
+
+# Ignore node_modules
+node_modules
+
+# Ignore any .json files in the root
+*.json
+
+# Ignore specific files or directories
+public/assets
+
+# Ignore .d.ts files
+*.d.ts

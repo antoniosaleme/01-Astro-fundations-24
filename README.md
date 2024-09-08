@@ -45,4 +45,16 @@ All commands are run from the root of the project, from a terminal:
 ## 👀 Want to learn more?
 
 Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+
 # 01-Astro-fundations-24
+
+https://docs.astro.build/en/basics/project-structure/
+
+https://docs.astro.build/en/reference/cli-reference/#astro-preferences
+
+que significa estatico? q no hay interacciones del lado del servidor
+
+
+to run prettier:
+
+npx prettier --write .
