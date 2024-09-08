@@ -48,9 +48,11 @@ Feel free to check [our documentation](https://docs.astro.build) or jump into ou
 
 # 01-Astro-fundations-24
 
-https://docs.astro.build/en/basics/project-structure/
+[project-structure](https://docs.astro.build/en/basics/project-structure/)
 
-https://docs.astro.build/en/reference/cli-reference/#astro-preferences
+[astro-preferences](https://docs.astro.build/en/reference/cli-reference/#astro-preferences)
+
+[layouts](https://docs.astro.build/en/basics/layouts/)
 
 que significa estatico? q no hay interacciones del lado del servidor
 

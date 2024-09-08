@@ -1,21 +1,12 @@
 ---
-import Navbar from "../components/Navbar.astro";
+import MainLayout from "../layouts/MainLayout.astro";
 
 // Server Only
 const name = "Versanet Solutions!!";
 const title = "Home Page";
 ---
 
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width" />
-    <meta name="generator" content={Astro.generator} />
-    <title>{title}</title>
-  </head>
-  <body>
-	<Navbar />
+<MainLayout title={title}>
     <h1>{name}</h1>
     <p>momento actual: {new Date().toLocaleTimeString()}</p>
     <p id="current-time"></p>
@@ -35,5 +26,4 @@ const title = "Home Page";
       realT.innerText = `Momento actual real: ${realTime}`;
       footer.innerText = `Año actual: ${currentYear}`;
     </script>
-  </body>
-</html>
+</MainLayout>
