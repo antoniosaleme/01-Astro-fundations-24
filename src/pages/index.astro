@@ -7,23 +7,23 @@ const title = "Home Page";
 ---
 
 <MainLayout title={title}>
-    <h1>{name}</h1>
-    <p>momento actual: {new Date().toLocaleTimeString()}</p>
-    <p id="current-time"></p>
+  <h1>{name}</h1>
+  <p>momento actual: {new Date().toLocaleTimeString()}</p>
+  <p id="current-time"></p>
 
-    <footer>Año 2023</footer>
+  <footer>Año 2023</footer>
 
-    <script>
-      // Client Only
-      const realT = document.querySelector(
-        "#current-time",
-      ) as HTMLParagraphElement;
-      const footer = document.querySelector("footer") as HTMLElement;
+  <script>
+    // Client Only
+    const realT = document.querySelector(
+      "#current-time",
+    ) as HTMLParagraphElement;
+    const footer = document.querySelector("footer") as HTMLElement;
 
-      const currentYear: number = new Date().getFullYear();
-      const realTime: string = new Date().toLocaleTimeString();
+    const currentYear: number = new Date().getFullYear();
+    const realTime: string = new Date().toLocaleTimeString();
 
-      realT.innerText = `Momento actual real: ${realTime}`;
-      footer.innerText = `Año actual: ${currentYear}`;
-    </script>
+    realT.innerText = `Momento actual real: ${realTime}`;
+    footer.innerText = `Año actual: ${currentYear}`;
+  </script>
 </MainLayout>
