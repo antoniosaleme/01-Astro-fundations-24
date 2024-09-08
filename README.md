@@ -54,7 +54,6 @@ https://docs.astro.build/en/reference/cli-reference/#astro-preferences
 
 que significa estatico? q no hay interacciones del lado del servidor
 
-
 to run prettier:
 
 npx prettier --write .
