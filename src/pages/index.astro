@@ -1,4 +1,6 @@
 ---
+import Navbar from "../components/Navbar.astro";
+
 // Server Only
 const name = "Versanet Solutions!!";
 const title = "Home Page";
@@ -13,10 +15,11 @@ const title = "Home Page";
     <title>{title}</title>
   </head>
   <body>
+	<Navbar />
     <h1>{name}</h1>
     <p>momento actual: {new Date().toLocaleTimeString()}</p>
     <p id="current-time"></p>
-	
+
     <footer>Año 2023</footer>
 
     <script>
