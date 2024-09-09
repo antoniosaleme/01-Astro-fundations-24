@@ -1,7 +1,16 @@
 ---
+import CustomTitle from "../components/CustomTitle.astro";
 import MainLayout from "../layouts/MainLayout.astro";
 ---
 
 <MainLayout title="About Page">
   <p>This is the about page</p>
+  <CustomTitle title="Custom About Page" />
 </MainLayout>
+
+<!-- <style is:global> -->
+<style>
+  p {
+    color: burlywood;
+  }
+</style>
