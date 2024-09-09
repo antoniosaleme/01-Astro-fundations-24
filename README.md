@@ -56,6 +56,8 @@ Feel free to check [our documentation](https://docs.astro.build) or jump into ou
 
 [Styling](https://docs.astro.build/en/guides/styling/)
 
+[view-transitions](https://docs.astro.build/en/guides/view-transitions/)
+
 que significa estatico? q no hay interacciones del lado del servidor
 
 to run prettier:
